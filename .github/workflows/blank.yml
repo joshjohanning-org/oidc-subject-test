@@ -22,6 +22,7 @@ jobs:
     permissions:
       id-token: write # this is needed for oidc
       contents: read # this is needed to clone repo
+    environment: development
     steps:
 
     # debug using the action
